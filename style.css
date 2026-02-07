@@ -843,3 +843,100 @@ section {
     0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
 }
+section {
+  position: relative;
+  z-index: 1;
+}
+#hero {
+  background: transparent !important;
+}
+#about {
+  background-color: #f8fafc !important;
+  background-image:
+    linear-gradient(#e2e8f0 1px, transparent 1px),
+    linear-gradient(90deg, #e2e8f0 1px, transparent 1px) !important;
+  background-size: 50px 50px !important; /* Ukuran kotak besar agar lega */
+}
+
+#education {
+  background-color: #ffffff !important;
+  border-top: 1px solid #f1f5f9;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+#achievements {
+  background-color: #fdf4ff !important;
+  background-image: radial-gradient(
+    #cbd5e1 1.5px,
+    transparent 1.5px
+  ) !important;
+  background-size: 30px 30px !important;
+}
+
+#projects {
+  background-color: #f0fdfa !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(6, 182, 212, 0.03),
+    rgba(6, 182, 212, 0.03) 1px,
+    transparent 1px,
+    transparent 30px
+  ) !important;
+}
+
+#contact {
+  background: #ffffff !important;
+  padding-bottom: 4rem;
+}
+
+.card,
+.tech-stack,
+.contact-box {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03) !important;
+  position: relative;
+  z-index: 2;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  border-color: rgba(99, 102, 241, 0.3) !important;
+}
+
+#education {
+  background-color: #fff1f2 !important;
+  background-image: radial-gradient(#fbcfe8 2px, transparent 2px) !important;
+  background-size: 30px 30px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.edu-card {
+  background: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(99, 102, 241, 0.6) !important;
+  border-radius: 30px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+}
+
+.edu-card:hover {
+  transform: translateY(-8px) !important;
+  background: rgba(255, 255, 255, 0.65) !important;
+  border-color: var(--secondary) !important;
+  box-shadow: 0 20px 50px rgba(236, 72, 153, 0.25) !important;
+}
+
+.img-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.3),
+    transparent
+  ) !important;
+}
